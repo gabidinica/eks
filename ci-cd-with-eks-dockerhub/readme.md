@@ -28,7 +28,7 @@ e. **CD Step**: Commit the version update back to the repository
 We’re going to use the **java-maven-app** project and the **deploy-on-k8s** branch.  
 In this folder, the necessary files have been added so you can copy them to your branch.
 
-1.Copy the `stage("deploy")` content provided in the configuration files.
+1. Copy the `stage("deploy")` content provided in the configuration files.
 2. Navigate to your **Jenkins-jobs** repository, then open the `Jenkinsfile`.
 3. Paste the `deploy` stage into the `Jenkinsfile` in the correct position within the pipeline definition.
 >  Now, your pipeline will include the **deploy step**, enabling deployments to the Kubernetes cluster directly from Jenkins.  
